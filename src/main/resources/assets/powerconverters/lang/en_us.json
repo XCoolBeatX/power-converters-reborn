@@ -1,0 +1,13 @@
+{
+  "itemGroup.powerconverters": "Power Converters",
+  "block.powerconverters.energy_bridge": "Energy Bridge",
+  "block.powerconverters.eu_consumer": "EU Consumer",
+  "block.powerconverters.eu_producer": "EU Producer",
+  "block.powerconverters.mj_consumer": "MJ Consumer",
+  "block.powerconverters.mj_producer": "MJ Producer",
+  "block.powerconverters.fe_consumer": "FE Consumer",
+  "block.powerconverters.fe_producer": "FE Producer",
+  "readout.powerconverters.buffer": "%s / %s FE (%s%%)",
+  "readout.powerconverters.equivalent": "= %s EU  |  %s MJ",
+  "readout.powerconverters.no_bridge": "Not attached to an Energy Bridge"
+}

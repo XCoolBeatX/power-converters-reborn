@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "powerconverters:block/fe_consumer"
+    }
+  }
+}

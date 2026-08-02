@@ -1,0 +1,35 @@
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
+
+# Files from Forge MDK
+forge*changelog.txt
+
+# Third-party mod jars we compile against.
+#
+# These are NOT ours to redistribute. IC2 Classic in particular ships as
+# "All rights reserved", so publishing a copy here would be straightforward
+# unauthorised redistribution. Every jar in libs/ is compileOnly and is never
+# bundled into our output, so nothing is lost by leaving them out.
+#
+# See the "Building" section of README.md for where to get them.
+libs/*.jar

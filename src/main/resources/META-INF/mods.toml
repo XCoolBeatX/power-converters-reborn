@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+issueTrackerURL="https://github.com/"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="${mod_authors}"
+description='''
+${mod_description}
+'''
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# Both energy mods are optional. The bridge is useful with any one of them plus Forge
+# Energy, and the integrations are only class-loaded when the mod is actually present,
+# so an install with neither still loads cleanly.
+#
+# Note the wide-open version ranges. IC2 Classic reports its version as "1.19.2-2.1.3.3",
+# which Maven ordering reads as starting at 1.19.2, so a sensible-looking "[2.1,)" range
+# actually rejects it. Since these are optional integrations that are feature-detected at
+# runtime anyway, pinning a range here buys nothing and only risks locking the player out.
+[[dependencies.${mod_id}]]
+    modId="ic2"
+    mandatory=false
+    ordering="AFTER"
+    side="BOTH"
+    versionRange="[0,)"
+
+[[dependencies.${mod_id}]]
+    modId="buildcraftlib"
+    mandatory=false
+    ordering="AFTER"
+    side="BOTH"
+    versionRange="[0,)"
