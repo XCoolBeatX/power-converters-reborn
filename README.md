@@ -117,7 +117,6 @@ them are bundled into it.
 
 MIT — see [LICENSE](LICENSE).
 
-An independent reimplementation, not a copy of the original mod's source. Credit for the
-original concept belongs to the authors of Power Converters. This repository contains no part
-of IndustrialCraft 2, BuildCraft, Jade, Forge or Minecraft; it only compiles against their
-public APIs.
+An independent reimplementation, not a copy of the original mod's source. See
+[NOTICE.md](NOTICE.md) for attribution and for what this repository does and does not
+redistribute.

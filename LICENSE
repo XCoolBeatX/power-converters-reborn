@@ -19,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This project is an independent reimplementation for Minecraft 1.19.2, inspired
-by the original Power Converters mod for 1.7.10 and earlier. It shares that
-mod's concept and block layout but contains none of its source code. All
-credit for the original idea belongs to its authors.
-
-This repository does not contain, and does not redistribute, any part of
-IndustrialCraft 2, BuildCraft, Jade, Minecraft Forge or Minecraft. It only
-compiles against their public APIs.
